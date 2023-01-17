@@ -75,6 +75,7 @@
 		global $connexion;
 		$select_categories= mysqli_query($connexion, "SELECT * FROM `categories` WHERE 1");
 		if(mysqli_num_rows($select_categories) >= 1)
+		//if ($select_categories->rowCount() >= 1)
 			{
 			while ($tab=mysqli_fetch_array($select_categories))
 				{
@@ -635,7 +636,7 @@
 	function updade_user($nom, $prenom, $mail,$user)
 	{
 		global $connexion;
-			$update=mysqli_query($connexion, "UPDATE `account` SET `pseudo`='$pseudo',`nom`='$nom',`prenom`='$prenom',`mail`='$mail'where pseudo='".$_GET['id']."'");
+			$update=mysqli_query($connexion, "UPDATE `account` SET `pseudo`='$user',`nom`='$nom',`prenom`='$prenom',`mail`='$mail'where pseudo='".$_GET['id']."'");
 	}
 
 	function preventSqlInjection($toEscape)

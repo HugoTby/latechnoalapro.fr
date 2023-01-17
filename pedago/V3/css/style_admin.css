@@ -683,7 +683,7 @@ u{
 	border-radius:50%;
 	margin-right:4%;
 	width:12vw;
-	height:10vw;
+	height:12vw;
 }
 #account .panel .form{
 	margin:2%;
@@ -713,7 +713,7 @@ u{
 	margin-left:4%;
 	margin-bottom:1%;
 	padding:1%;
-    width: %;
+    width: 0%;
     background-color: rgba(60,53,78,0.8);
     color: #fff;
 	border: inset 2px #6954b0;
@@ -874,7 +874,7 @@ u{
 	padding: 2% 0%;
 	border-radius:50%;
 	width:10vw;
-	height:8vw;
+	height:10vw;
 }
 #listing .user .del:hover{
 	color:red;
