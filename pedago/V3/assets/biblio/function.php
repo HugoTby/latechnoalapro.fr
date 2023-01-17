@@ -6,8 +6,8 @@
 	{
 		global $connexion;
 		//$connexion =mysqli_connect("journalltrpedago.mysql.db", "journalltrpedago","Pedago1234");
-		$connexion =mysqli_connect("fskkxwctechno.mysql.db", "fskkxwctechno","Sj6f84XHx3Dz");
-		mysqli_select_db($connexion, "fskkxwctechno");
+		$connexion =mysqli_connect("192.168.65.92", "root","root");
+		mysqli_select_db($connexion, "root");
 		mysqli_set_charset($connexion,"utf8");
 	}
 //----------------------------------------------------------------------------------------------------------------------------------//
@@ -123,7 +123,7 @@
 				
 				$requete="INSERT INTO `categories`(`classe`, `couleur`, `img`,`background`,`title`,`description`) VALUES ('$name','$color','$var_requete_img','$var_requete_background','$title','$presentation')";
 			
-				$enregistrement=mysqli_query($connexion, $requete)or die( mysqli_error() );;
+				$enregistrement=mysqli_query($connexion, $requete);
 				if(!$enregistrement)
 				{
 					$check="false";
@@ -170,7 +170,7 @@
 						$NewAccount = "
 						INSERT INTO `account`(`pseudo`, `password`, `nom`, `prenom`, `mail`, `date_creation`, `last_connexion`, `ip_connexion`, `user_level`, `user_avatar`)
 						VALUES ('$pseudo','$password','$nom','$prenom','$mail','$date','$date','$ip','$level','$VarRequete')";
-						$Verif = mysqli_query($connexion, $NewAccount)or die( mysqli_error());
+						$Verif = mysqli_query($connexion, $NewAccount);
 						//---------Verification du traitement-----//
 						if(!$Verif)
 						{
