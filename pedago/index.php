@@ -1,3 +1,3 @@
 <?php
-    header('Location: V2/index.php');
+    header('Location: V3/index.php');
 ?>

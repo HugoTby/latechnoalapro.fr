@@ -1,3 +1,3 @@
 <?php
-    header('Location: pedago/V2/index.php');
+    header('Location: pedago/V3/index.php');
 ?>
