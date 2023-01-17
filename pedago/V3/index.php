@@ -143,7 +143,7 @@
 									<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Jérémy Bourdon - Aurélien Boucher - François Duprez - Pierre-Baptiste Warnier - Site migré
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut - Site migré
 								</div>
 								<div class='clear'></div>
 							</div>
@@ -158,8 +158,8 @@
 								Merci de lire avec attentions les différentes modalités d’utilisation du présent site avant d’y parcourir ses pages. En vous connectant sur ce site, vous acceptez sans réserves les présentes modalités. Aussi, conformément de l’Article n°6 de la Loi n°2004-575 du 21 Juin 2004 pour la confiance dans l’économie numérique, les responsables du présent site internet <URL DU SITE ICI> sont :
 								
 								<h4>Editeur du Site :</h4>
-								Nom : BOURDON, BOUCHER, WARNIER, DUPREZ<br>
-								Prénom : Jérémy, Aurélien, Pierre-Baptiste, François<br>
+								Nom : TABARY, POLLET, LEFEVRE, BILHAUT<br>
+								Prénom : Hugo, Quentin, Tom, Théo<br>
 								146 boulevard St Quentin – 80090 Amiens<br>
 								Email : ftrepagne@la-providence.net<br>
 								Site Web : <URL DU SITE ICI><br>
@@ -170,7 +170,7 @@
 								Site Web : https://www.ovh.com/fr/<br>
 								
 								<h4>Développement :</h4>
-								BOURDON, BOUCHER, WARNIER, DUPREZ<br>
+								TABARY, POLLET, LEFEVRE, BILHAUT<br>
 								Adresse : 146 boulevard St Quentin – 80090 Amiens
 								Site Web : La Providence Section STS
 						</div>
@@ -185,7 +185,7 @@
 									<a href='index.php?p=mention'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Jérémy Bourdon - Aurélien Boucher - François Duprez - Pierre-Baptiste Warnier
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
 								</div>
 								<div class='clear'></div>
 							</div>	";
@@ -259,7 +259,7 @@
 									<a href='index.php?p=mention'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Jérémy Bourdon - Aurélien Boucher - François Duprez - Pierre-Baptiste Warnier
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
 								</div>
 								<div class='clear'></div>
 							</div>	";
@@ -322,7 +322,7 @@
 									<a href='index.php?p=mention'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Jérémy Bourdon - Aurélien Boucher - François Duprez - Pierre-Baptiste Warnier
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
 								</div>
 								<div class='clear'></div>
 							</div>	
