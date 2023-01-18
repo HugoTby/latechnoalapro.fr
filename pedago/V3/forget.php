@@ -1,13 +1,13 @@
 <?php 
 	session_start();
-	include('../V2/assets/biblio/function.php');
+	include('../V3/assets/biblio/function.php');
 	
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="../V2/css/style_admin.css">
+	<link rel="stylesheet" type="text/css" href="../V3/css/style_admin.css">
 	<title>Mot de passe oublié</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
 			<h3><i class='fa fa-user' aria-hidden='true'></i> Mot de passe oublié </h3>
 				<div class='panel'>
 					<center>
-						<img src='../V2/assets/img/login.png'>
+						<img src='../V3/assets/img/login.png'>
 					</center>
 					<div class='form'>
 						<?php

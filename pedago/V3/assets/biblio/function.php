@@ -1,7 +1,7 @@
 ﻿<?php
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL & ~E_NOTICE);
-	$address="http://journal-lapro.fr/pedago/V2/";
+	$address="http://journal-lapro.fr/pedago/V3/";
 	function connexion ()//se connecte à la DB
 	{
 		global $connexion;
