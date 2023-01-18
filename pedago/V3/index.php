@@ -45,7 +45,7 @@
 						echo"><i class='fa fa-cogs' aria-hidden='true'></i> Logiciels
 						</div>
 						</a>
-						<a href='http://www.la-providence.net/'><img src='assets/img/logo_providence.jpg' target='_blank' class='lapro'></A>
+						<a href='http://www.la-providence.net/'><img src='assets/img/logo_providence.png' target='_blank' class='lapro'></A>
 					</div>
 				</div>
 			</header>";
@@ -135,7 +135,7 @@
 						</div>";
 						echo"<div id='footer'>
 								<div class='link'>
-									<img src='assets/img/logo_providence.jpg'>
+									<img src='assets/img/logo_providence.png'>
 									Accueil - Logiciels - Contact
 									<br>
 									&copy; tout droit reservé
@@ -177,7 +177,7 @@
 					</div>
 					<div id='footer' style='position:absolute'>
 								<div class='link'>
-									<img src='assets/img/logo_providence.jpg'>
+									<img src='assets/img/logo_providence.png'>
 									Accueil - Logiciels - 
 									<br>
 									Latechnoalapro &copy; tout droit reservé
@@ -251,7 +251,7 @@
 					}
 					echo"<div id='footer' style='position:absolute'>
 								<div class='link'>
-									<img src='assets/img/logo_providence.jpg'>
+									<img src='assets/img/logo_providence.png'>
 									Accueil - Logiciels - Contact
 									<br>
 									&copy; tout droit reservé
@@ -314,7 +314,7 @@
 					</div>
 					<div id='footer' style='position:absolute;'>
 								<div class='link'>
-									<img src='assets/img/logo_providence.jpg'>
+									<img src='assets/img/logo_providence.png'>
 									Accueil - Logiciels - Contact
 									<br>
 									&copy; tout droit reservé

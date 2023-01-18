@@ -176,7 +176,7 @@ a{
 .navbar .lapro{
 	width:10.2%;
 	float:right;
-	border-left:solid 1px #BA0D2A;
+	/*border-left:solid 1px #BA0D2A;*/
 }
 .navbar .link {
 	display:block;
@@ -460,7 +460,7 @@ a{
 #footer img{
 	float:right;
 	width:10%;
-	border: inset 1px  #BA0D2A;
+	/*border: inset 1px  #BA0D2A;*/
 	margin-right:2%;
 	margin-bottom:1%;
 }
