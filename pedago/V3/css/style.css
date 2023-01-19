@@ -11,7 +11,7 @@
 @keyframes animateCloud2 {0% {margin-left: 84%;}100% {margin-right: 93%;}}
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background: #000000 url('/pedago/V3/vid.mp4');
+	background: #000000 url('../assets/img/background.jpg');
 	background-size:cover;
 	background-attachment: fixed;
 	background-repeat:no-repeat;	
@@ -32,10 +32,10 @@ a{
 	z-index:-3;
 }
 .l_techno{
-	width:50%;
+	width:40%;
 	position:absolute;
-	margin-top:3%;
-	margin-left:25%;
+	margin-top:1%;
+	margin-left:30%;
 }
 .cloud2 {
 	-webkit-animation: animateCloud2 120s linear infinite;
@@ -153,7 +153,7 @@ a{
 	font-size: 2vw;
 	width: 100%;
    	 margin: 0 auto;
-	background:#FFF url("../assets/img/login_background.jpg") ;
+	/*background:#FFF url("../assets/img/login_background.jpg") ;*/
 	background-size:40%;
 	background-position:10%;
 	-moz-box-shadow: 0px 0px 10px 0px #BA0D2A;
@@ -174,8 +174,10 @@ a{
 	-webkit-animation: rotation 20s linear infinite;
 }
 .navbar .lapro{
-	width:20%;
+	width:12%;
 	float:right;
+	margin-right: 4%;
+	margin-top: 0.8%;
 	/*border-left:solid 1px #BA0D2A;*/
 }
 .navbar .link {
@@ -283,6 +285,7 @@ a{
 	margin-top:1%;
 	border-bottom:solid 1px #fff;
 	color:#fff;
+	
 }
 
 #home .panel{
@@ -293,6 +296,10 @@ a{
 	border-right:inset 2px #BA0D2A;
 	border-bottom:inset 2px #BA0D2A;
 	border-left:inset 2px #BA0D2A;
+	-moz-box-shadow: 0px 0px 10px 0px #BA0D2A;
+	-webkit-box-shadow: 0px 0px 10px 0px  #BA0D2A;
+	-o-box-shadow: 0px 0px 10px 0px  #BA0D2A;
+	box-shadow: 0px 0px 10px 0px  #BA0D2A;
 	background-color:rgba(18,42,57,0.9);
 }
 #CssLienAcutalite
@@ -452,7 +459,7 @@ a{
 #footer .dev{
 	float:right;
 	margin-right:28%;
-	margin-top:-3%;
+	margin-top:-2.5%;
 	font-size:0.9vw;
 	width:31%;
 	text-align:center

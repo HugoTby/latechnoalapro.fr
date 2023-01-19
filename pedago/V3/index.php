@@ -21,11 +21,11 @@
 						<a href='index.php'><div";
 							if(!isset($_GET['p']))
 							{
-								echo" class='active' style='background-color:#db6692'";
+								echo" class='active' style='background-color:#34495E'";
 							}
 							else
 							{
-								echo" class='link' style='background-color:#db6692'";
+								echo" class='link' style='background-color:#34495E'";
 							}
 							echo"><i class='fa fa-home' aria-hidden='true'></i> Accueil
 							</div></a>";
@@ -36,16 +36,16 @@
 						<a href='index.php?p=logiciels'><div";
 						if(isset($_GET['p'])&& $_GET['p']=='logiciels')
 						{
-							echo" class='active' style='background-color:#48d0b0'";
+							echo" class='active' style='background-color:#34495E'";
 						}
 						else
 						{
-							echo" class='link' style='background-color:#48d0b0'";
+							echo" class='link' style='background-color:#34495E'";
 						}
 						echo"><i class='fa fa-cogs' aria-hidden='true'></i> Logiciels
 						</div>
 						</a>
-						<a href='http://www.la-providence.net/'><img src='assets/img/logo_providence.png' target='_blank' class='lapro'></A>
+						<a href='http://www.la-providence.net/' target='_blank'><img src='assets/img/logo_providence.png' target='_blank' class='lapro'></A>
 					</div>
 				</div>
 			</header>";
@@ -95,7 +95,7 @@
 					<div class='select'>
 						<div class='ecoledirect'>
 							<span>
-							<a target='_blank' href='https://www.ecoledirecte.com/login'><img class='ecoledirectimg' src='assets/img/ecoledirect.png' alt='Lien ecole directe' /></a></span> 
+							<a target='_blank' href='https://www.ecoledirecte.com/login' target='_blank'><img class='ecoledirectimg' src='assets/img/ecoledirect.png' alt='Lien ecole directe' /></a></span> 
 						</div>
 						<div class='menu'>
 							<span>
@@ -132,14 +132,12 @@
 						echo"<div id='footer'>
 								<div class='link'>
 									<img src='assets/img/logo_providence.png'>
-									Accueil - Logiciels - Contact
-									<br>
-									&copy; tout droit reservé
+									tous droits réservés &copy;
 									<br>
 									<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut - Site migré
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
 								</div>
 								<div class='clear'></div>
 							</div>
@@ -172,17 +170,15 @@
 						</div>
 					</div>
 					<div id='footer' style='position:absolute'>
-								<div class='link'>
-									<img src='assets/img/logo_providence.png'>
-									Accueil - Logiciels - 
-									<br>
-									Latechnoalapro &copy; tout droit reservé
-									<br>
-									<a href='index.php?p=mention'>Mentions Légales</a>
-								</div>
-								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
-								</div>
+					<div class='link'>
+					<img src='assets/img/logo_providence.png'>
+					tous droits réservés &copy;
+					<br>
+					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
+				</div>
+				<div class='dev'>
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+				</div>
 								<div class='clear'></div>
 							</div>	";
 			}
@@ -246,17 +242,15 @@
 						";
 					}
 					echo"<div id='footer' style='position:absolute'>
-								<div class='link'>
-									<img src='assets/img/logo_providence.png'>
-									Accueil - Logiciels - Contact
-									<br>
-									&copy; tout droit reservé
-									<br>
-									<a href='index.php?p=mention'>Mentions Légales</a>
-								</div>
-								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
-								</div>
+					<div class='link'>
+					<img src='assets/img/logo_providence.png'>
+					tous droits réservés &copy;
+					<br>
+					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
+				</div>
+				<div class='dev'>
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+				</div>
 								<div class='clear'></div>
 							</div>	";
 				echo"</div>
@@ -280,7 +274,7 @@
 							<img src='assets/img/sketchup.png'>
 							Google SketchUp est un puissant logiciel de traitement d'images 3D. Plus précisément, le programme permet de concevoir, de visualiser, et bien entendu de modifier des images 3D. Il a été conçu pour être bien précis dans ses oeuvres, de l'esquisse au crayon à la vitesse et la flexibilité de l'application. De plus, il est doté d'une interface permettant l'exploration originale des images 3D.
 							<div class='clear'></div>
-							<center><a href='assets/ressource/logiciel/SketchUpMake-fr.exe' class='button-dl'>Téléchargement</a></center>	
+							<center><a href='assets/ressource/logiciel/SketchUpMake-fr.exe' target='_blank' class='button-dl'>Téléchargement</a></center>	
 							<br>		
 						</div>
 						<div class='logiciel'>
@@ -288,7 +282,7 @@
 							<img src='assets/img/eDrawings.png'>
 							Utilisez eDrawings ™ et Collaborez plus efficacement avec les différents intervenants du développement des produits grâce au logiciel Solidworks, premier outil de communication par courrier électronique qui facilite grandement le partage des données de conception de produit.<br>				
 							<div class='clear'></div>		
-							<center><a href='assets/ressource/logiciel/eDrawings.exe' class='button-dl'>Téléchargement</a></center>
+							<center><a href='assets/ressource/logiciel/eDrawings.exe' target='_blank' class='button-dl'>Téléchargement</a></center>
 							<br>
 						</div>
 						<div class='logiciel'>
@@ -296,7 +290,7 @@
 							<img src='assets/img/sweethome.png'>
 							Sweet Home 3D est un logiciel libre d'aménagement d'intérieue qui vous aide à dessiner le plan de votre maison, y placer vos meubles et visiter le résultat en 3D.</br>	
 							<div class='clear'></div>		
-							<center><a href='assets/ressource/logiciel/SweetHome3D.exe' class='button-dl'>Téléchargement</a></center>
+							<center><a href='assets/ressource/logiciel/SweetHome3D.exe' target='_blank' class='button-dl'>Téléchargement</a></center>
 							<br>
 						</div>
 						<div class='logiciel'>
@@ -304,22 +298,20 @@
 							<img src='assets/img/logo_ink.png'>
 						Inkscape est un logiciel de dessin vectoriel, c'est-à-dire un programme spécialement conçu pour l'édition ou la création de graphisme vectoriel. Il s'agit d'un logiciel libre, donc chaque utilisateur a la possibilité d'apporter des modifications s'il a la compétence pour cela. Il propose toute une panoplie d'outils. <br>
 							<div class='clear'></div>		
-							<center><a href='assets/ressource/logiciel/Inkscape.exe' class='button-dl'>Téléchargement</a></center>
+							<center><a href='assets/ressource/logiciel/Inkscape.exe' target='_blank' class='button-dl'>Téléchargement</a></center>
 							<br>
 						</div>
 					</div>
 					<div id='footer' style='position:absolute;'>
-								<div class='link'>
-									<img src='assets/img/logo_providence.png'>
-									Accueil - Logiciels - Contact
-									<br>
-									&copy; tout droit reservé
-									<br>
-									<a href='index.php?p=mention'>Mentions Légales</a>
-								</div>
-								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
-								</div>
+					<div class='link'>
+					<img src='assets/img/logo_providence.png'>
+					tous droits réservés &copy;
+					<br>
+					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
+				</div>
+				<div class='dev'>
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+				</div>
 								<div class='clear'></div>
 							</div>	
 				</div>
