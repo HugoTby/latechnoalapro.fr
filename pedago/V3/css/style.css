@@ -11,7 +11,7 @@
 @keyframes animateCloud2 {0% {margin-left: 84%;}100% {margin-right: 93%;}}
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background: #000000 url('../assets/img/background.jpg');
+	background: #000000 url('/pedago/V3/vid.mp4');
 	background-size:cover;
 	background-attachment: fixed;
 	background-repeat:no-repeat;	
@@ -174,7 +174,7 @@ a{
 	-webkit-animation: rotation 20s linear infinite;
 }
 .navbar .lapro{
-	width:10.2%;
+	width:20%;
 	float:right;
 	/*border-left:solid 1px #BA0D2A;*/
 }

@@ -16,7 +16,7 @@
 		echo"
 			<header>
 				<div class='navbar'>
-					<img src='assets/img/gears.png' class='logo'>
+					
 					<div class='page'>		
 						<a href='index.php'><div";
 							if(!isset($_GET['p']))
@@ -58,13 +58,9 @@
 			echo"
 			<body>
 				<div id='home'>		
-					<div class='cloud'></div>
-					<div class='cloud2'></div>
 					<img src='assets/img/robot.png' class='robots'>
 					<img src='assets/img/logo_techno.png' class='l_techno'>
-					<div class='appartement'>
-						<img src='assets/img/immeuble.png'>
-					</div>
+					
 					<div class='presentation'>
 						<div class='menu'>
 							<span>
