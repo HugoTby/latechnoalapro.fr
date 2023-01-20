@@ -78,25 +78,24 @@
 								<h4>Intérêt du site :</h4>
 								Ce site a pour but de montrer l'intérêt des cours de technologie au collège mais aussi de proposer un accès aux élèves leur permettant d'accéder aux fichiers numériques pour travailler en classe mais aussi à la maison.
 							</div>							
-							<h3><i class='fa fa-bar-chart' aria-hidden='true'></i>Actualités</h3>
+							<h3><i class='fa fa-bar-chart' aria-hidden='true'></i> Actualités</h3>
 							<div class='EnglobageCss'>
 								<div class='stat'>";
 									read_news();
 									echo"
-								</div>
-								<div id='CssLienAcutalite'><a href='".$address."/index.php?p=actu'>Toutes les actualités</a>
-								</div>
+								
 							</div>	
 							<div class='clear'></div>
 						</div> 
 						<div class='clear'></div>
 					</div>
 					
-					<div class='select'>
-						<div class='ecoledirect'>
+					<div class='select'> ".
+						/*<div class='ecoledirect'>
 							<span>
 							<a target='_blank' href='https://www.ecoledirecte.com/login' target='_blank'><img class='ecoledirectimg' src='assets/img/ecoledirect.png' alt='Lien ecole directe' /></a></span> 
-						</div>
+						</div>*/
+						"
 						<div class='menu'>
 							<span>
 								<b> Nos cours </b>
@@ -107,24 +106,7 @@
 							<h3>Les différents niveaux : </h3>"; 
 							select_menu();
 							echo"
-									<a href='index.php?p=3 ème'>
-										<div class='block_one' style='background-color:#5dc6b8'>
-											<div class='classe'>3 ème</div>
-												<center><img src='assets/img_categorie/logo_projet.png' alt='logo'><p></center>
-												<div class='button'>
-												<i class='fa fa-book' aria-hidden='true'></i> Cours
-												<div class='clear'></div>
-											</div>
-										</div>
-									</a>
-								<a href='index.php?p=logiciels'>
-									<div class='block_two' style='background-color:#d8d827'>
-										<center><img src='assets/img/logo_logiciel.png' alt='logiciel'><p></center>
-										<div class='button'>
-											<span> <i class='fa fa-question-circle-o' aria-hidden='true'></i> Logiciels </span>
-										</div>
-									</div>	
-								</a>
+									
 								<div class='clear'></div>
 							</div> 
 							<div class='clear'></div>
@@ -137,7 +119,7 @@
 									<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 								</div>
 								<div class='dev'>
-									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+									<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet<br>Tom Lefevre - Théo Bilhaut
 								</div>
 								<div class='clear'></div>
 							</div>

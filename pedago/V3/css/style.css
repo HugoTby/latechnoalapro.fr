@@ -180,6 +180,7 @@ a{
 	margin-top: 0.8%;
 	/*border-left:solid 1px #BA0D2A;*/
 }
+
 .navbar .link {
 	display:block;
 	color:white;
@@ -273,8 +274,8 @@ a{
 	display:block;
 	padding:2%;
 	width:93%;
-	border:inset 2px #6a54b0;
-	background-color:#4a94c5;	
+	border:inset 2px #34495E;
+	background-color:#34495E;	
 	color:white;
 	text-align:center;
 }
@@ -349,14 +350,14 @@ a{
 	color:#fff;
 }
 #home .select{
-	width:75%;
+	/*width:75%;*/
 	margin:2% auto;
 	color:black;
 }
-
 .block_one{
+
 	width:32%;
-	float:left;
+	/*float:left;*/
 	margin-left:0.8%;
 	margin-bottom:1%;
 	-webkit-transition-duration: 0.5s;
@@ -364,6 +365,7 @@ a{
 	-ms-transition-duration: 0.5s; 
 	-o-transition-duration: 0.5s;
     transition-duration: 0.5s;
+	display: inline-block;
 }
 #home .select .block_one:hover{
 	transform:scale(1.02);
@@ -455,6 +457,7 @@ a{
 }
 #footer .link{
 	margin-left:4%;
+	font-size: 19px;
 }
 #footer .dev{
 	float:right;
@@ -758,12 +761,13 @@ a{
 	border-top:inset 2px #BA0D2A;
 	border-left:inset 2px #BA0D2A;
 	border-bottom:inset 2px #BA0D2A;
+	border-right:inset 2px #BA0D2A;
 	float:right;
 	width:18%;
 	padding:1%;
 	position: relative;
 	right: 79.7%;
-	top: 20em; 
+	top: 13em; 
 }
 #home .ecoledirect span{
 	display:block;

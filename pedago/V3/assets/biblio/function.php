@@ -682,7 +682,7 @@
 		}
 		else
 		{
-			echo"<div class='actu'>-Aucune actualité</div>";
+			echo"<div class='actu'> - Aucune information(s)</div>";
 		}
 	}
 	function printnews() //modif

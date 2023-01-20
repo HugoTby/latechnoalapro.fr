@@ -1266,7 +1266,7 @@
 												<span> Information : </span><p>
 												<textarea name='information' required></textarea></p>
 												<span> Date de debut de publication : </span><p>
-												<input type='date' max='2019-07-30' min='20".date("y-m-d")."' value='20".date("y-m-d")."' name='date_debut'></p>
+												<input type='date' max='2050-07-30' min='20".date("y-m-d")."' value='20".date("y-m-d")."' name='date_debut'></p>
 												<span> Date de fin de publication :</span><p>
 												<input type='date' name='date_fin' value='20".date("y-m-d",strtotime("+1 year"))."'></p>
 												<br>
