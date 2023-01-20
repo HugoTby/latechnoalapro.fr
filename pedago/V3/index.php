@@ -159,7 +159,7 @@
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
 				<div class='dev'>
-					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet<br>Tom Lefevre - Théo Bilhaut
 				</div>
 								<div class='clear'></div>
 							</div>	";
@@ -231,7 +231,7 @@
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
 				<div class='dev'>
-					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet<br>Tom Lefevre - Théo Bilhaut
 				</div>
 								<div class='clear'></div>
 							</div>	";
@@ -292,7 +292,7 @@
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
 				<div class='dev'>
-					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet - Tom Lefevre - Théo Bilhaut
+					<i class='fa fa-cogs  fa-2x' aria-hidden='true'></i> Développé par Hugo Tabary - Quentin Pollet<br>Tom Lefevre - Théo Bilhaut
 				</div>
 								<div class='clear'></div>
 							</div>	
