@@ -1,16 +1,16 @@
 ﻿<?php
 	ini_set('display_errors', 1);
 	error_reporting(E_ALL & ~E_NOTICE);
-	$address="http://journal-lapro.fr/pedago/V3/";
+	$address="http://journal-lapro.fr/pedago/V2/";
 	function connexion ()//se connecte à la DB
 	{
 		global $connexion;
 		//$connexion =mysqli_connect("journalltrpedago.mysql.db", "journalltrpedago","Pedago1234");
-		$connexion =mysqli_connect("192.168.65.92", "root","root");
-		mysqli_select_db($connexion, "root");
+		$connexion =mysqli_connect("fskkxwctechno.mysql.db", "fskkxwctechno","Sj6f84XHx3Dz");
+		mysqli_select_db($connexion, "fskkxwctechno");
 		mysqli_set_charset($connexion,"utf8");
 	}
-//----------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------//
 	function identification ($login,$password)
 	{	
 		global $connexion;
@@ -75,7 +75,6 @@
 		global $connexion;
 		$select_categories= mysqli_query($connexion, "SELECT * FROM `categories` WHERE 1");
 		if(mysqli_num_rows($select_categories) >= 1)
-		//if ($select_categories->rowCount() >= 1)
 			{
 			while ($tab=mysqli_fetch_array($select_categories))
 				{
@@ -83,7 +82,7 @@
 					<a href='index.php?p=cours&cl=$tab[1]'>
 						<div class='block_one' style='background-color:$tab[2]'>
 							<div class='classe'>$tab[1]</div>
-							<center><img src='$tab[3]' alt='logo'><p></center>
+							<center><img src='$tab[3]' alt='logo' width='754' height='603' ><p></center>
 							<div class='button'>
 								<i class='fa fa-book' aria-hidden='true'></i> Cours
 								<div class='clear'></div>
@@ -124,7 +123,7 @@
 				
 				$requete="INSERT INTO `categories`(`classe`, `couleur`, `img`,`background`,`title`,`description`) VALUES ('$name','$color','$var_requete_img','$var_requete_background','$title','$presentation')";
 			
-				$enregistrement=mysqli_query($connexion, $requete);
+				$enregistrement=mysqli_query($connexion, $requete)or die( mysqli_error() );;
 				if(!$enregistrement)
 				{
 					$check="false";
@@ -171,7 +170,7 @@
 						$NewAccount = "
 						INSERT INTO `account`(`pseudo`, `password`, `nom`, `prenom`, `mail`, `date_creation`, `last_connexion`, `ip_connexion`, `user_level`, `user_avatar`)
 						VALUES ('$pseudo','$password','$nom','$prenom','$mail','$date','$date','$ip','$level','$VarRequete')";
-						$Verif = mysqli_query($connexion, $NewAccount);
+						$Verif = mysqli_query($connexion, $NewAccount)or die( mysqli_error());
 						//---------Verification du traitement-----//
 						if(!$Verif)
 						{
@@ -636,7 +635,7 @@
 	function updade_user($nom, $prenom, $mail,$user)
 	{
 		global $connexion;
-			$update=mysqli_query($connexion, "UPDATE `account` SET `pseudo`='$user',`nom`='$nom',`prenom`='$prenom',`mail`='$mail'where pseudo='".$_GET['id']."'");
+			$update=mysqli_query($connexion, "UPDATE `account` SET `pseudo`='$pseudo',`nom`='$nom',`prenom`='$prenom',`mail`='$mail'where pseudo='".$_GET['id']."'");
 	}
 
 	function preventSqlInjection($toEscape)
@@ -676,13 +675,13 @@
 				if ($date >= $req[3] && $req[4] >= $date )
 				{
 
-					echo"<div class='actu'>- $req[3] : $req[1]</div>";
+					echo"<div class='actu'>- $req[3] : <strong>$req[1]</strong> - $req[2]</div>";
 				}
 			}
 		}
 		else
 		{
-			echo"<div class='actu'> - Aucune information(s)</div>";
+			echo"<div class='actu'>-Aucune actualité</div>";
 		}
 	}
 	function printnews() //modif

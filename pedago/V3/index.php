@@ -78,7 +78,7 @@
 								<h4>Intérêt du site :</h4>
 								Ce site a pour but de montrer l'intérêt des cours de technologie au collège mais aussi de proposer un accès aux élèves leur permettant d'accéder aux fichiers numériques pour travailler en classe mais aussi à la maison.
 							</div>							
-							<h3><i class='fa fa-bar-chart' aria-hidden='true'></i> Actualités</h3>
+							
 							<div class='EnglobageCss'>
 								<div class='stat'>";
 									read_news();
@@ -113,7 +113,7 @@
 						</div>";
 						echo"<div id='footer'>
 								<div class='link'>
-									<img src='assets/img/logo_providence.png'>
+									<img src='assets/img/logo_providence_blanc.png'>
 									tous droits réservés &copy;
 									<br>
 									<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
@@ -153,7 +153,7 @@
 					</div>
 					<div id='footer' style='position:absolute'>
 					<div class='link'>
-					<img src='assets/img/logo_providence.png'>
+					<img src='assets/img/logo_providence_blanc.png'>
 					tous droits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
@@ -225,7 +225,7 @@
 					}
 					echo"<div id='footer' style='position:absolute'>
 					<div class='link'>
-					<img src='assets/img/logo_providence.png'>
+					<img src='assets/img/logo_providence_blanc.png'>
 					tous droits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
@@ -286,7 +286,7 @@
 					</div>
 					<div id='footer' style='position:absolute;'>
 					<div class='link'>
-					<img src='assets/img/logo_providence.png'>
+					<img src='assets/img/logo_providence_blanc.png'>
 					tous droits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
