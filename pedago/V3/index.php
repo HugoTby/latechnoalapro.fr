@@ -114,7 +114,7 @@
 						echo"<div id='footer'>
 								<div class='link'>
 									<img src='assets/img/logo_providence_blanc.png'>
-									tous droits réservés &copy;
+									latechnoalapro.fr 2011-2023<br>tous droits réservés &copy;
 									<br>
 									<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 								</div>
@@ -154,7 +154,7 @@
 					<div id='footer' style='position:absolute'>
 					<div class='link'>
 					<img src='assets/img/logo_providence_blanc.png'>
-					tous droits réservés &copy;
+					latechnoalapro.fr 2011-2023<br>tous droits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
@@ -226,7 +226,7 @@
 					echo"<div id='footer' style='position:absolute'>
 					<div class='link'>
 					<img src='assets/img/logo_providence_blanc.png'>
-					tous droits réservés &copy;
+					latechnoalapro.fr 2011-2023<br>tous droits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
@@ -287,7 +287,7 @@
 					<div id='footer' style='position:absolute;'>
 					<div class='link'>
 					<img src='assets/img/logo_providence_blanc.png'>
-					tous droits réservés &copy;
+					latechnoalapro.fr 2011-2023<br>oits réservés &copy;
 					<br>
 					<a href='index.php?p=mention' class='hover'>Mentions Légales</a>
 				</div>
