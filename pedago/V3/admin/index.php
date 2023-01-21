@@ -1350,7 +1350,7 @@
 						<h3><i class='fa fa-user' aria-hidden='true'></i> Identification </h3>
 						<div class='panel'>
 							<center>
-								<img src='../assets/img/login.png'>
+								<img style='padding-top:50px;padding-bottom:50px;' src='../assets/img/logo_providence_blanc.png'>
 								Connectez-vous à votre espace personnel.<br>
 							</center>
 							<div class='form'>
