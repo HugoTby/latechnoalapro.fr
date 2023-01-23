@@ -504,6 +504,8 @@ a{
 	font-size:0.6vw;
 	color: #FFF;
 	margin:1%;
+	height: 130px;
+	border-radius: 10px;
 }
 .item:hover{
 	cursor:pointer;

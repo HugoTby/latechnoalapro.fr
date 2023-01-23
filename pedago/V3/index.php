@@ -184,7 +184,7 @@
 						</div>
 					</Center>
 					<div class='intro'>
-						<img src='assets/img/logo_help.png'>
+						<img src='assets/img/robot.png'>
 						<div class='text'>$description</div>
 					</div>
 					<div class='download'>
@@ -319,7 +319,7 @@
 						</div>
 					</Center>
 					<div class='intro'>
-						<img src='assets/img/logo_help.png'>
+						<img src='assets/img/robot.png'>
 						<div class='text'>L’enseignement en classe de troisième est articulé autour la mise en  œuvre d’un ou plusieurs projets collectifs qui doivent permettre à  chaque élève :<br>
 						<br>- de mobiliser, à l’occasion de la gestion de ce(s) projet(s)  collectif(s), les connaissances et les capacités acquises dans les années précédentes ;
 						<br>-d’acquérir de nouvelles connaissances et un plus grand degré d’autonomie ;
