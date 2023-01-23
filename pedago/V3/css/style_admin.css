@@ -860,12 +860,12 @@ u{
 }
 #listing .user .panel{
 	color:#000;
-	background: #000000 url('../assets/img/background_admin.jpg');
 	background-size:100%;
 	margin:4%;
 	padding:2%;
 	border:inset 3px #9788c8;
 	border-radius: 10px;
+	background-color: white;
 }
 #listing .user h4{
 	margin:0px 0px;
