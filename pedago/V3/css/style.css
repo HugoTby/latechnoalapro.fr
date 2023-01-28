@@ -636,6 +636,7 @@ a{
 	padding:1%;
 	font-size:16px;
 	margin-bottom:1%;
+	box-shadow: 0px 0px 10px 0px #BA0D2A;
 }
 #page .p_logiciel .logiciel h3
 {
