@@ -123,7 +123,7 @@
 				
 				$requete="INSERT INTO `categories`(`classe`, `couleur`, `img`,`background`,`title`,`description`) VALUES ('$name','$color','$var_requete_img','$var_requete_background','$title','$presentation')";
 			
-				$enregistrement=mysqli_query($connexion, $requete)or die( mysqli_error() );;
+				$enregistrement=mysqli_query($connexion, $requete);
 				if(!$enregistrement)
 				{
 					$check="false";
@@ -328,6 +328,29 @@
 		}	
 		return $check;
 	} //modif
+	function create_logiciel($title, $file)
+	{
+		global $connexion;
+		$title=preventSqlInjection($title);
+
+		$dossier_ressource="../assets/ressource/file/";
+		$file=basename($_FILES['file']['name']);
+		$fichier_background=basename($_FILES['file']['name']);
+		$liens=$dossier_ressource.$file;
+		move_uploaded_file($_FILES['file']['tmp_name'], $liens);
+
+
+		$write=mysqli_query($connexion, "INSERT INTO `logiciel`(`title`, `urlFile`) VALUES ('$title', '$liens')");
+		if(!$write)
+		{
+			$check="false";
+		}
+		else
+		{
+			$check="true";
+		}
+		return $check;
+	}
 	function select_cours($cours)//modif
 	{
 		global $connexion;
