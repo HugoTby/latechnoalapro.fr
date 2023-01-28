@@ -60,8 +60,7 @@ a{
 	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
 	height: 120px;
-	position: absolute;
-	width: 350px;
+    width: 350px;
 }
 .cloud2:after, .cloud2:before {
     background: #fff;

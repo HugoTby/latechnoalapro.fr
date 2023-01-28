@@ -241,7 +241,7 @@
 			}
 			if(isset($_GET['p'])&& $_GET['p']=='contact')
 			{
-				
+					    
 			
 			}
 			if(isset($_GET['p'])&& $_GET['p']=='logiciels')
